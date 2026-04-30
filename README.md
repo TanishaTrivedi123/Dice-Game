@@ -133,6 +133,7 @@ Future extensions may include:
 ## 👨‍💻 Author
 
 **Tanisha Trivedi**
+
 Full Stack Developer
 
 Focused on structured engineering, clean UI architecture, and strong foundational implementation.
