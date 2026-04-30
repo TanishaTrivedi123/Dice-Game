@@ -1,16 +1,155 @@
-# React + Vite
+🎲 Dice Game – Fundamental Revision Project 📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Dice Game application is a frontend-focused practice project developed to reinforce and revise core React fundamentals and essential JavaScript concepts.
 
-Currently, two official plugins are available:
+The objective of this project was not feature complexity, but clarity of logic, predictable state transitions, clean UI composition, and structured component architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is intentionally built without any backend integration to maintain focus on front-end engineering fundamentals.
 
-## React Compiler
+🎯 Purpose of the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was developed as:
 
-## Expanding the ESLint configuration
+🧠 A revision exercise for core React concepts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚛️ A practical implementation of state-driven UI rendering
+
+🧩 A demonstration of component-based architecture
+
+📱 A responsive UI design practice project
+
+🧪 A logic validation exercise using deterministic conditions
+
+The emphasis was placed on correctness, readability, and structured implementation rather than feature expansion.
+
+🚀 Application Logic
+
+The gameplay follows a minimal and deterministic structure:
+
+The user selects a number between 1 and 6.
+
+The dice is rolled.
+
+If the rolled number matches the selected number:
+
+The user wins the round.
+
+If the rolled number does not match:
+
+The user loses the round.
+
+The score can be reset at any time.
+
+Rules can be toggled dynamically.
+
+The logic is fully controlled using React state management and conditional rendering.
+
+🏗️ Tech Stack
+
+Frontend Framework: React (Functional Components)
+
+State Management: useState / useReducer
+
+Styling: CSS3 (Flexbox, Responsive Layout, Modern UI Patterns)
+
+Architecture Approach: Component-Based Design
+
+Backend: ❌ None (Frontend-Only Implementation)
+
+🧠 Core Concepts Reinforced
+
+Declarative UI Design
+
+Controlled State Management
+
+Conditional Rendering
+
+Event Handling
+
+Component Reusability
+
+Responsive Layout Engineering
+
+Clean Separation of Concerns
+
+📱 Responsiveness
+
+The application is fully responsive and optimized for:
+
+Desktop Screens
+
+Tablets
+
+Mobile Devices
+
+Modern layout techniques ensure consistency across varying screen sizes.
+
+📂 Project Structure src/ ├── components/ │ ├── Home.jsx │ ├── Game.jsx │ ├── assets/ │ ├── dice images │ ├── App.jsx ├── index.js └── styles.css
+
+The structure reflects clarity, modularity, and maintainability.
+
+⚙️ Installation & Setup git clone cd dice-game npm install npm start
+
+The application runs locally at:
+
+http://localhost:3000 📈 Scope for Enhancement
+
+Future extensions may include:
+
+Dice roll animation effects
+
+Sound feedback
+
+Persistent scoring using localStorage
+
+Multiplayer logic
+
+Probability visualization dashboard
+
+👨‍💻 Author
+
+Ansh Pandey Full Stack Developer Focused on structured engineering, clean UI architecture, and strong foundational implementation.
+
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Contributors
+1
+@Ansh191182
+Ansh191182 Ansh /pandey
+Languages
+JavaScript
+48.7%
+ 
+CSS
+47.4%
+ 
+HTML
+3.9%
+Suggested workflows
+Based on your tech stack
+Datadog Synthetics logo
+Datadog Synthetics
+Run Datadog Synthetic tests within your GitHub Actions workflow
+Deno logo
+Deno
+Test your Deno project
+Publish Node.js Package logo
+Publish Node.js Package
+Publishes a Node.js package to npm.
+More workflows
+Footer
